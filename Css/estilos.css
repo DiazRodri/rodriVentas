@@ -1,0 +1,841 @@
+/* 1 REM = 10PX */
+html{
+    font-size: 62,5%;
+}
+
+
+/* INDEX */
+
+#fondoBeige{
+    background-color: #F7ECDE;
+}
+
+
+.fondoEncabezado{
+    background-color: #E9DAC1;
+}
+
+
+.menuPrincipal ul li{
+    display: inline;
+    list-style-type: none;
+
+    padding-right: 35px;
+
+    font-family: sans-serif;
+    color: #54BAB9;
+
+}
+
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+
+ul{
+    display: inline;
+}
+
+
+.icono{
+    display: inline;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+.colorCeleste{
+    color: #54BAB9;
+}
+
+.estilosTexto{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;   
+}
+
+.estilosTexto2{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.espaciadoH2{
+    margin-top: 70px;
+}
+
+
+
+.foto1{
+    display: inline;
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.foto2{
+    display: inline;
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;  
+}
+
+.foto3{
+    display: inline;
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.proximamente1{
+    display: inline;
+    width: 500px;
+    height: 500px;
+
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.proximamente2{
+    display: inline;
+    width: 500px;
+    height: 500px;
+
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.proximamente3{
+    display: inline;
+    width: 700px;
+    height: 500px;
+
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.logo1{
+    display: inline;
+    width: 40px;
+    height: 40px;
+
+    margin-left: 850px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.logo2{
+    display: inline;
+    width: 65px;
+    height: 45px;
+
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.logo3{
+    display: inline;
+    width: 45px;
+    height: 45px;
+
+    position: fixed;
+    top: 900px;
+    left: 1845px;
+}
+
+
+
+
+
+
+footer p{
+    color: #54BAB9;
+}
+
+
+.primerDiv{
+    margin-top: 10rem;
+    
+    text-align: center;
+
+    font-family: sans-serif;
+    color: #54BAB9;
+}
+
+.derechosAutor{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+/* PAGINA NOSOTROS */
+
+.tituloUno{
+    color: #54BAB9;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.textosGeneral{
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+
+.listasDesordenadas{
+    list-style-type: circle;
+    list-style-position: inside;
+    
+    line-height: 30px;
+}
+
+
+
+.marginTitulo{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+
+    border-bottom: solid 5px;
+}
+
+
+.marginSubtitulos{
+    margin-top: 150px;
+    margin-left: 20px;
+
+    border-bottom: solid 5px;
+}
+
+
+.marginTextos{
+    margin-top: 5px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+}
+
+
+.separacionFooter{
+    margin-top: 200px;
+}
+
+
+
+
+
+
+
+/* PAGINA CONTACTO */
+
+.subtituloContacto{
+    color: #54BAB9;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.tituloContacto{
+    color: #54BAB9;
+    font-weight: bold;
+    font-family: sans-serif;
+
+    border-bottom: solid 5px;
+
+    margin-bottom: 50px;
+}
+
+
+.nombreBloque{
+    display: block;
+
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.correoBloque{
+    display: block;
+
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+.CelularBloque{
+    display: block;
+
+    margin-bottom: 80px;
+    margin-left: 30px;
+}
+
+
+.estilosTexto3{
+    font-family: sans-serif;
+}
+
+
+.margenMensaje{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.margenPenultimo{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.margenUltimo{
+    margin-left: 30px;
+}
+
+.posicionMapa{
+    margin-left: 1600px;
+}
+
+
+
+
+
+
+
+/* PAGINA GALERIA */
+
+.section1{
+    display: inline;
+    margin-left: 170px;
+}
+
+.section2{
+    display: inline;
+    margin-left: 170px;
+}
+
+.section3{
+    display: inline;
+    margin-left: 170px;
+}
+
+.subtituloGaleria{
+    margin: 50px;
+    text-align: center;
+    border-bottom: solid 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #54BAB9
+}
+
+
+/* .sizeFoto1{
+    height: 450px;
+    width: 550px;
+}
+
+.sizeFoto2{
+    height: 450px;
+    width: 600px;
+}
+
+.sizeFoto3{
+    height: 450px;
+    width: 350px;
+    margin-left: 170px;
+}
+
+.sizeFoto4{
+    height: 400px;
+    width: 570px;
+}
+
+.sizeFoto5{
+    height: 380px;
+    width: 550px;
+    padding-bottom: 470px;
+}
+
+.sizeFoto6{
+    height: 400px;
+    width: 350px;
+}
+
+.sizeFoto7{
+    height: 380px;
+    width: 400px;
+    margin-left: 170px;
+    padding-bottom: 470px;
+}
+
+.sizeFoto8{
+    height: 400px;
+    width: 580px;
+    margin-left: 170px;
+}
+
+.sizeFoto9{
+    height: 380px;
+    width: 550px;
+    padding-bottom: 470px;
+} */
+
+
+
+.menuBajo{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: #54BAB9;
+}
+
+
+.pruebaFotos{
+    display: inline;
+}
+
+
+.margenGaleria{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+/* PAGINA PRODUCTOS */
+
+.tituloPrincipal{
+    color: #54BAB9;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 50px;
+
+    border-bottom: solid 5px;
+}
+
+.subtituloProductos{
+    color: #54BAB9;
+    font-family: sans-serif;
+    font-weight: 300;
+
+    margin-top: 40px;
+}
+
+.productosH3{
+    color: #781C68;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    border: #781C68 solid 5px;
+    width: 300px;
+
+    margin-top: 100px;
+    margin-left: 780px;
+}
+
+.tamañoJuegos{
+    display: inline;
+    height: 350px;
+    width: 258px;
+}
+
+.nombresJuegos{
+    display: inline;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.margenFotos{
+    margin-left: 500px;
+}
+
+.paddingFotos{
+    padding-right: 50px;
+}
+
+.margenTextos{
+    margin-left: 530px;
+}
+
+.paddingTextos{
+    padding-right: 170px;
+}
+
+.paddingFarcry{
+    padding-left: 75px;
+}
+
+.topMargen{
+    margin-top: 150px;
+}
+
+.espaciadoTexto{
+    margin-left: 600px;
+    padding-right: 220px;
+}
+
+.paddingGhost{
+    padding-right: 150px;
+}
+
+.espaciadoMarvel{
+    margin-left: 504px;
+    padding-right: 115px;
+}
+
+.paddingNFS{
+    padding-left: 170px;
+}
+
+.espaciadoTexto2{
+    margin-left: 530px;
+    padding-right: 150px;
+}
+
+.paddingSaints{
+    padding-left: 170px;
+}
+
+.marginTop{
+    color: #781C68;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    border: #781C68 solid 5px;
+    width: 200px;
+
+    margin-top: 200px;
+    margin-left: 850px;
+}
+
+.espaciadoCatan{
+    margin-left: 615px;
+    padding-right: 250px;
+}
+
+.paddingTelestrations{
+    padding-left: 230px;
+}
+
+.tamanoCatan{
+    height: 350px;
+    width: 300px;
+    margin-left: 485px;
+}
+
+.tamanoExploding{
+    height: 320px;
+    width: 320px;
+}
+
+.tamanoTelestrations{
+    height: 330px;
+    width: 370px;
+}
+
+.estiloTabla{
+    color: #54BAB9;
+    font-family: sans-serif;
+    margin-left: 765px;
+    margin-top: 150px;
+
+    border: #781C68 solid 3px;
+    border-collapse: collapse;
+    border-color: #781C68;
+}
+
+
+
+
+
+
+
+/* FLEXBOX Y GRIDS GALERÍA */
+
+.flexboxNav{
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.gridGaleria{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+
+    justify-items: center;
+    align-items: center;
+
+    justify-content: stretch;
+    align-content: center;
+
+    grid-template-areas: 
+    "foto3 foto1 foto2"
+    "foto8 foto4 foto6"
+    "foto7 foto5 foto9"
+    ;
+}
+
+
+.foto3Galeria{
+    grid-area: foto3;
+    height: 450px;
+    width: 350px;
+}
+.foto1Galeria{
+    grid-area: foto1;
+    height: 450px;
+    width: 550px;
+}
+.foto2Galeria{
+    grid-area: foto2;
+    height: 450px;
+    width: 600px;
+}
+.foto8Galeria{
+    grid-area: foto8;
+    height: 400px;
+    width: 580px;
+}
+.foto4Galeria{
+    grid-area: foto4;
+    height: 400px;
+    width: 570px;
+}
+.foto6Galeria{
+    grid-area: foto6;
+    height: 400px;
+    width: 350px;
+}
+.foto7Galeria{
+    grid-area: foto7;
+    height: 380px;
+    width: 400px;
+}
+.foto5Galeria{
+    grid-area: foto5;
+    height: 380px;
+    width: 550px;
+}
+.foto9Galeria{
+    grid-area: foto9;
+    height: 380px;
+    width: 550px;
+}
+
+
+
+
+
+/* FLEXBOX Y GRIDS INDEX */
+
+.gridIndex{
+    display: grid;
+
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: -0.5fr -0.5fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    margin-left: 2rem;
+
+    grid-template-areas:
+    "titulo titulo titulo"
+    "subtitulo subtitulo subtitulo"
+    "subtitulo1 subtitulo1 subtitulo1"
+    "img1 img2 img3"
+    "subtitulo2 subtitulo2 subtitulo2"
+    "img4 img5 img6"
+    ;
+}
+
+.titulo{
+    grid-area: titulo;
+    color: #54BAB9;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitulo{
+    grid-area: subtitulo;
+    text-align: center;
+    color: #54BAB9;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.subtitulo1{
+    grid-area: subtitulo1;
+    color: #54BAB9;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 6rem;
+}
+
+.subtitulo2{
+    grid-area: subtitulo2;
+    color: #54BAB9;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 7rem;
+}
+
+.img1{
+    grid-area: img1;
+
+    width: 600px;
+    height: 400px;
+}
+
+.img2{
+    grid-area: img2;
+
+    width: 600px;
+    height: 400px;
+}
+
+.img3{
+    grid-area: img3;
+
+    width: 600px;
+    height: 400px;
+}
+
+.img4{
+    grid-area: img4;
+
+    width: 500px;
+    height: 500px;
+}
+
+.img5{
+    grid-area: img5;
+
+    width: 500px;
+    height: 500px;
+}
+
+.img6{
+    grid-area: img6;
+
+    width: 600px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+/* FLEXBOX Y GRID PRODUCTOS */
+
+
+/* FLEXBOX Y GRID NOSOTROS */
+
+
+/* FLEXBOX Y GRID CONTACTANOS */
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES TABLET Y CELULAR: INDEX */
+
+@media (max-width: 768px) {
+    .flexboxNav{
+        flex-direction: column;
+        
+    }
+
+    .gridIndex{
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-row-gap: 0.5rem;
+        margin-left: 5rem;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+        grid-template-areas: 
+        "titulo titulo"
+        "subtitulo subtitulo"
+        "subtitulo1 subtitulo1"
+        "img1 ."
+        "img2 ."
+        "img3 ."
+        "subtitulo2 subtitulo2"
+        "img4 ."
+        "img5 ."
+        "img6 .";
+    }
+
+    .titulo{
+        font-size: larger;
+        margin-top: 3rem;
+    }
+
+    .subtitulo{
+        font-size: medium;
+        margin-top: 0.5rem;
+    }
+
+    .subtitulo1{
+        margin-top: 3rem;
+    }
+
+    .logo1{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+    }
+
+    footer a{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+    }
+}
+
