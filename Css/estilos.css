@@ -141,35 +141,19 @@ ul{
 
 
 .logo1{
-    display: inline;
     width: 40px;
     height: 40px;
-
-    margin-left: 850px;
-    margin-right: 20px;
-    margin-top: 40px;
 }
 
 .logo2{
-    display: inline;
     width: 65px;
     height: 45px;
-
-    margin-right: 10px;
-    margin-top: 40px;
 }
 
 .logo3{
-    display: inline;
     width: 45px;
     height: 45px;
-
-    position: fixed;
-    top: 900px;
-    left: 1845px;
 }
-
-
 
 
 
@@ -323,6 +307,15 @@ footer p{
     margin-left: 1600px;
 }
 
+.primerDiv2{
+    margin-top: 3rem;
+    
+    text-align: center;
+
+    font-family: sans-serif;
+    color: #54BAB9;
+}
+
 
 
 
@@ -423,7 +416,7 @@ footer p{
 
 
 .margenGaleria{
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
 }
 
 
@@ -624,13 +617,13 @@ footer p{
 }
 .foto1Galeria{
     grid-area: foto1;
-    height: 450px;
-    width: 550px;
+    height: 396px;
+    width: 546px;
 }
 .foto2Galeria{
     grid-area: foto2;
-    height: 450px;
-    width: 600px;
+    height: 396px;
+    width: 546px;
 }
 .foto8Galeria{
     grid-area: foto8;
@@ -639,7 +632,7 @@ footer p{
 }
 .foto4Galeria{
     grid-area: foto4;
-    height: 400px;
+    height: 403px;
     width: 570px;
 }
 .foto6Galeria{
@@ -762,19 +755,232 @@ footer p{
 }
 
 
+.flexboxFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 4rem;
+}
+
+.flexboxFooter section a img{
+    margin-top: 1.5rem;
+}
+
 
 
 
 
 
 /* FLEXBOX Y GRID PRODUCTOS */
+/* .gridProductos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(15, 2fr);
+    grid-row-gap: 0.5rem;
+
+    margin-left: 0rem;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    grid-template-areas: 
+    "none productoTitulo none"
+    "none productoSubtitulo none"
+    "none productoSubsubtitulo none"
+    "productosimg1 productosimg2 productosimg3"
+    "nombreimg1 nombreimg2 nombreimg3"
+    "productosimg4 productosimg5 productosimg6"
+    "nombre img4 nombreimg5 nombreimg6"
+    "productosimg7 productosimg8 productosimg9"
+    "nombreimg7 nombreimg8 nombreimg9"
+    "productosimg10 productosimg11 productosimg12"
+    "nombreimg10 nombreimg11 nombreimg12"
+    "none productoSubsubtitulo2 none"
+    "productosimg13 productosimg14 productosimg15"
+    "nombreimg13 nombreimg14 nombreimg15"
+    "none tablaProductos none";
+
+}
+
+.productoTitulo{
+    grid-area: productoTitulo;
+}
+
+.productoSubtitulo{
+    grid-area: productoSubtitulo;
+}
+
+.productoSubsubtitulo{
+    grid-area: productoSubsubtitulo;
+}
+
+.productosimg1{
+    grid-area: productosimg1;
+}
+
+.productosimg2{
+    grid-area: productosimg2;
+}
+
+.productosimg3{
+    grid-area: productosimg3;
+}
+
+.productosimg4{
+    grid-area: productosimg4;
+}
+
+.productosimg5{
+    grid-area: productosimg5;
+}
+
+.productosimg6{
+    grid-area: productosimg6;
+}
+
+.productosimg7{
+    grid-area: productosimg7;
+}
+
+.productosimg8{
+    grid-area: productosimg8;
+}
+
+.productosimg9{
+    grid-area: productosimg9;
+}
+
+.productosimg10{
+    grid-area: productosimg10;
+}
+
+.productosimg11{
+    grid-area: productosimg11;
+}
+
+.productosimg12{
+    grid-area: productosimg12;
+}
+
+.productoSubsubtitulo2{
+    grid-area: productoSubsubtitulo2;
+}
+
+.productosimg13{
+    grid-area: productosimg13;
+}
+.productosimg14{
+    grid-area: productosimg14;
+}
+.productosimg15{
+    grid-area: productosimg15;
+}
+
+.tablaProductos{
+    grid-area: tablaProductos;
+}
+
+.nombreimg1{
+    grid-area: nombreimg1;
+}
+
+.nombreimg2{
+    grid-area: nombreimg2;
+}
+
+.nombreimg3{
+    grid-area: nombreimg3;
+}
+
+.nombreimg4{
+    grid-area: nombreimg4;
+}
+
+.nombreimg5{
+    grid-area: nombreimg5;
+}
+
+.nombreimg6{
+    grid-area: nombreimg6;
+}
+
+.nombreimg7{
+    grid-area: nombreimg7;
+}
+
+.nombreimg8{
+    grid-area: nombreimg8;
+}
+
+.nombreimg9{
+    grid-area: nombreimg9;
+}
+
+.nombreimg10{
+    grid-area: nombreimg10;
+}
+
+.nombreimg11{
+    grid-area: nombreimg11;
+}
+
+.nombreimg12{
+    grid-area: nombreimg12;
+}
+
+.nombreimg13{
+    grid-area: nombreimg13;
+}
+.nombreimg14{
+    grid-area: nombreimg14;
+}
+
+.nombreimg15{
+    grid-area: nombreimg15;
+} */
 
 
-/* FLEXBOX Y GRID NOSOTROS */
+
+
+
+
 
 
 /* FLEXBOX Y GRID CONTACTANOS */
 
+.gridContacto{
+    display: grid;
+
+    grid-template-columns: 5fr;
+    grid-template-rows: 0fr 1fr 1fr;
+
+    grid-row-gap: 1fr;
+
+    align-items: center;
+
+    grid-template-areas: 
+    "tituloProductos"
+    "form"
+    "mapa";
+}
+
+.tituloProductos{
+    grid-area: tituloProductos;
+}
+
+.fomr{
+    grid-area: form;
+}
+
+.mapa{
+    grid-area: mapa;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: end;
+} 
 
 
 
@@ -782,7 +988,12 @@ footer p{
 
 
 
-/* MEDIA QUERIES TABLET Y CELULAR: INDEX */
+
+
+
+
+
+/* MEDIA QUERIES TABLET Y CELULAR PAGINA INDEX */
 
 @media (max-width: 768px) {
     .flexboxNav{
@@ -793,7 +1004,6 @@ footer p{
     .gridIndex{
         grid-template-columns: 0.5fr 0.5fr;
         grid-row-gap: 0.5rem;
-        margin-left: 5rem;
         justify-items: center;
         align-items: center;
         justify-content: center;
@@ -826,16 +1036,228 @@ footer p{
         margin-top: 3rem;
     }
 
-    .logo1{
-        display: flex;
-        flex-direction: row;
-        align-self: center;
+
+}
+
+
+
+@media (max-width: 500px) {
+    .flexboxNav{
+        flex-direction: column;
     }
 
-    footer a{
+    .menuPrincipal ul li a{
         display: flex;
-        flex-direction: row;
-        justify-self: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gridIndex{
+        grid-template-columns: 19rem;
+        grid-template-rows: repeat (10, 1rem);
+        grid-row-gap: 0.5rem;
+
+        margin-left: 0rem;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+        grid-template-areas:
+        "titulo"
+        "subtitulo"
+        "subtitulo1"
+        "img1"
+        "img2"
+        "img3"
+        "subtitulo2"
+        "img4"
+        "img5"
+        "img6"
+        ;
+    }
+
+    .titulo{
+        font-size: medium;
+        margin-top: 2rem;
+    }
+
+    .subtitulo{
+        font-size: small;
+        margin-top: 3rem;
+    }
+
+    .subtitulo1{
+        font-size: smaller;
+    }
+
+    .img1{
+        width: 25rem;
+        height: 15rem;
+    }
+
+    .img2{
+        width: 25rem;
+        height: 15rem;
+    }
+
+    .img3{
+        width: 25rem;
+        height: 15rem;
+    }
+
+    .subtitulo2{
+        font-size: smaller;
+    }
+
+    .img4{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .img5{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .img6{
+        width: 20rem;
+        height: 17rem;
+    }
+
+    .menuBajo{
+        font-size: small;
+    }
+
+    .primerDiv{
+        margin-top: 7rem;
+    }
+
+    .logo1{
+        width: 20px;
+        height: 20px;
+    }
+
+    .logo2{
+        width: 34px;
+        height: 23px;
+    }
+
+    .logo3{
+        width: 25px;
+        height: 25px;
     }
 }
 
+
+
+
+
+
+
+/* MEDIA QUERIE CELULAR PAGINA GALERIA */
+
+@media (max-width: 500px) {
+    .flexboxNav{
+        flex-direction: column;
+    }
+
+    .gridGaleria{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-row-gap: 1rem;
+
+        justify-content: center;
+
+        grid-template-areas: 
+        "foto3"
+        "foto1"
+        "foto2"
+        "foto8"
+        "foto4"
+        "foto6"
+        "foto7"
+        "foto5"
+        "foto9";
+    }
+    
+    .foto1Galeria{
+        height: 21.6rem;
+        width: 27.5rem;
+    }
+
+    .foto2Galeria{
+        height: 22rem;
+        width: 30rem;
+    }
+
+    .foto8Galeria{
+        height: 22rem;
+        width: 30rem;
+    }
+
+    .foto4Galeria{
+        height: 22rem;
+        width: 30rem;
+    }
+
+    .foto5Galeria{
+        height: 22rem;
+        width: 30rem;
+    }
+
+    .foto9Galeria{
+        height: 22rem;
+        width: 30rem;
+    }
+
+    .margenGaleria{
+        margin-bottom: 3rem;
+        margin-top: 4rem;
+    }
+
+    .flexboxFooter{
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIE CELULAR PAGINA NOSOTROS */
+
+@media (max-width:500px) {
+    .marginTextos{
+        margin-top: 0rem;
+        margin-left: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .marginTitulo{
+        margin-top: 10rem;
+        margin-left: 1.5rem;
+    
+        border-bottom: solid 5px #54BAB9;
+    }
+    
+}
+
+
+
+
+
+
+
+/* MEDIA QUERIE CELULAR PAGINA CONTACTO */
+
+@media (max-width: 500px){
+    .mapa{
+        justify-content: center;
+        margin-top: 19rem;
+    }
+
+    
+}
