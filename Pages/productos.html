@@ -7,6 +7,8 @@
     <title>Productos - Rodriventas</title>
     <link rel="shortcut icon" href="../Images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 
 <body id="fondoBeige">
@@ -25,7 +27,7 @@
 
     
     <main>
-        <h1 class="tituloPrincipal">Productos</h1>
+        <h1 class="tituloPrincipal animate__animated animate__bounceInLeft">Productos</h1>
         <h2 class="subtituloProductos">Tenemos una gran variedad de productos a su disposición</h2>
     </main>
 
@@ -44,37 +46,37 @@
         <p class="nombresJuegos paddingFarcry">Far Cry 6</p>
     </section>
 
-    <section class="topMargen">
+    <section class="topMargen" data-aos="fade-down">
         <img src="../Images/FIFA-22----PlayStation-4.jpg" alt="FIFA" class="tamañoJuegos margenFotos paddingFotos">
         <img src="../Images/Ghost-of-Tsushima---PlayStation-4.jpg" alt="Tsushima" class="tamañoJuegos paddingFotos">
         <img src="../Images/horizon_2_ps4_1.jpg" alt="Horizon" class="tamañoJuegos">
     </section>
 
-    <section>
+    <section data-aos="fade-down">
         <p class="nombresJuegos espaciadoTexto">FIFA 22</p>
         <p class="nombresJuegos paddingGhost">Ghost of Tsushima</p>
         <p class="nombresJuegos">Horizon Forbidden West</p>
     </section>
 
-    <section class="topMargen">
+    <section class="topMargen" data-aos="fade-down">
         <img src="../Images/Marvels-Spider-Man-Miles-Morales---PlayStation-4.jpg" alt="spiderman" class="tamañoJuegos paddingFotos margenFotos">
         <img src="../Images/Metal-Gear-Solid-V-The-Phantom-Pain---PlayStation-4.png" alt="MGSV" class="tamañoJuegos paddingFotos">
         <img src="../Images/Need-for-Speed-Heat---PlayStation-4.jpg" alt="NFS" class="tamañoJuegos">
     </section>
 
-    <section>
+    <section data-aos="fade-down">
         <p class="nombresJuegos espaciadoMarvel">Marvels Spider-Man Miles Morales</p>
         <p class="nombresJuegos">Metal Gear Solid V</p>
         <p class="nombresJuegos paddingNFS">Need For Speed Heat</p>
     </section>
 
-    <section class="topMargen">
+    <section class="topMargen" data-aos="fade-down">
         <img src="../Images/the-last-of-us-part-ii-20199271734386_1.jpg" alt="TLOU" class="tamañoJuegos paddingFotos margenFotos">
         <img src="../Images/mw.jpg" alt="MW" class="tamañoJuegos paddingFotos">
         <img src="../Images/saints-row.jpg" alt="saints" class="tamañoJuegos">
     </section>
 
-    <section>
+    <section data-aos="fade-down">
         <p class="nombresJuegos espaciadoTexto2">The Last Of Us Part II</p>
         <p class="nombresJuegos">Call of Duty Modern Warfare</p>
         <p class="nombresJuegos paddingSaints">Saints Row</p>
@@ -82,23 +84,23 @@
 
     <h3 class="marginTop">Juegos de mesa</h3>
     
-    <section class="topMargen">
+    <section class="topMargen" data-aos="fade-down">
         <img src="../Images/catan.jpg" alt="catan" class="tamanoCatan">
         <img src="../Images/exploding-kittens.jpg" alt="exploding" class="tamanoExploding">
         <img src="../Images/telestrations.jpg" alt="telestrations" class="tamanoTelestrations">
     </section>
 
-    <section>
+    <section data-aos="fade-down"> 
         <p class="nombresJuegos espaciadoCatan">Catan</p>
         <p class="nombresJuegos">Exploding Kittens</p>
         <p class="nombresJuegos paddingTelestrations">Telestrations</p>
     </section>
 
+    <!-- Quizás todas las animaciones en los productos no sea necesaria, ver si borrarlas o no -->
 
 
 
-
-    <table border="2" cellpadding="6px" cellspacing="4" class="estiloTabla">
+    <table border="2" cellpadding="6px" cellspacing="4" class="estiloTabla" data-aos="zoom-in-left">
         <th>Producto</th>
         <th>Precio</th>
         <th>Stock</th>
@@ -215,5 +217,12 @@
         </section>  
     </footer>
 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    
 </body>
 </html>
