@@ -8,10 +8,13 @@
     <link rel="shortcut icon" href="../Images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="../Css/estilos.css">
 </head>
 
-<body id="fondoBeige">
+<!-- <body id="fondoBeige">
     <header class="fondoEncabezado flexboxNav">
         <img src="../Images/logo_transparent.png" alt="icono" class="icono">
         <nav class="menuPrincipal">
@@ -96,7 +99,7 @@
         <p class="nombresJuegos paddingTelestrations">Telestrations</p>
     </section>
 
-    <!-- Quizás todas las animaciones en los productos no sea necesaria, ver si borrarlas o no -->
+    Quizás todas las animaciones en los productos no sea necesaria, ver si borrarlas o no
 
 
 
@@ -215,7 +218,354 @@
             <a href="https://twitter.com/" target="_blank"><img src="../Images/twitter 3.jpg" alt="Twitter" class="logo2"></a>   
             <a href="https://whatsapp.com/" target="_blank"><img src="../Images/WhatsApp_icon.png" alt="Whatsapp" class="logo3"></a>
         </section>  
+    </footer> -->
+
+
+
+<!--     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    
+</body> -->
+
+
+
+
+
+<!-- Deje el codigo anterior comentado para ver con cual de los dos me quedo -->
+
+
+<body id="fondoBeige">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../Images/logo_transparent1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <main class="container-fluid">
+        <h1 class="tituloPrincipal animate__animated animate__bounceInLeft text-center">Productos</h1>
+        <h2 class="subtituloProductos">Tenemos una gran variedad de productos a su disposición</h2>
+        <h3 class="productosH3">Juegos de PlayStation</h3>
+
+        <div class="row d-flex justify-content-center mt-5 mb-5 gap-4" data-aos="fade-down">
+            
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/assassins-creed-odyssey.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Assassins Creed Odyssey</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            
+
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/cod-modern-warfare2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">COD - Modern Warfare 2</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/days-gone-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Days Gone</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center mt-5 mb-5 gap-4" data-aos="fade-down">
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/death-stranding-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Death Stranding</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/far-cry-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fary Cry 6</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/fifa22-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">FIFA 22</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center mt-5 mb-5 gap-4" data-aos="fade-down">
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/ghost-of-tsushima2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ghost of Tsushima</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/spider-man2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">SpiderMan - Miles Morales</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/horizon-forbidden-west2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Horizon Forbidden West</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center mt-5 mb-5 gap-4" data-aos="fade-down">
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/Metal-Gear-Solid-V-The-Phantom-Pain---PlayStation-4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Metal Gear Solid</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/modern-warfare2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">COD - Modern Warfare</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/saints-row2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Saints Row</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 class="marginTop" data-aos="fade-down">Juegos de mesa</h3>
+
+        <div class="row d-flex justify-content-center mt-5 mb-5 gap-4" data-aos="fade-down">
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/catan.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Catan</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/exploding-kittens2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Exploding Kittens</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../Images/telestrations3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Telestrations</h5>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <section>
+        <table border="2" cellpadding="6px" cellspacing="4" class="estiloTabla" data-aos="zoom-in-left">
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Stock</th>
+    
+            <tr>
+                <td>Assassins Creed Odyssey</td>
+                <td>40 USD</td>
+                <td>SI</td>
+            </tr>
+    
+            <tr>
+                <td>Days Gone</td>
+                <td>40 USD</td>
+                <td>SI</td>
+            </tr>
+    
+            <tr>
+                <td>Far Cry 6</td>
+                <td>60 USD</td>
+                <td>SI</td>
+            </tr>
+        
+            <tr>
+                <td>FIFA 22</td>
+                <td>40 USD</td>
+                <td>SI</td>
+            </tr>
+    
+            <tr>
+                <td>Ghost of Tsushima</td>
+                <td>50 USD</td>
+                <td>SI</td>
+            </tr>
+    
+            <tr>
+                <td>Horizon Forbidden West</td>
+                <td>60 USD</td>
+                <td>SI</td>
+            </tr>
+    
+            <tr>
+                <td>Spider-Man Miles Morales</td>
+                <td>60 USD</td>
+                <td>SI</td>
+            </tr>
+    
+            <tr>
+                <td>Metal Gear Solid V</td>
+                <td>30 USD</td>
+                <td>SI</td>
+            </tr>
+    
+            <tr>
+                <td>Need For Speed Heat</td>
+                <td>40 USD</td>
+                <td>NO</td>
+            </tr>
+    
+            <tr>
+                <td>The Last Of Us Part II</td>
+                <td>60 USD</td>
+                <td>SI</td>
+            </tr>
+    
+            <tr>
+                <td>Call Of Duty Modern Warfare</td>
+                <td>50 USD</td>
+                <td>SI</td>
+            </tr>
+    
+            <tr>
+                <td>Saints Row</td>
+                <td>60 USD</td>
+                <td>NO</td>
+            </tr>
+    
+            <tr>
+                <td>Catan</td>
+                <td>30 USD</td>
+                <td>NO</td>
+            </tr>
+    
+            <tr>
+                <td>Exploding Kittens</td>
+                <td>30 USD</td>
+                <td>SI</td>
+            </tr>
+    
+            <tr>
+                <td>Telestrations</td>
+                <td>30 USD</td>
+                <td>SI</td>
+            </tr>
+        </table>
+    </section>
+
+
+
+
+
+
+
+
+    <footer class="footerProductos">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Ir al Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Ir a Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href=galeria.html>Ir a Galería</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Ir a Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Ir a Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <div>
+            <p class="derechosAutor">Página con propositos académicos y no comerciales</p>
+            
+            <section class="redesSociales">
+                <a href="https://www.instagram.com/" target="_blank"><img src="../Images/Instagram_Glyph_Gradient_RGB.png" alt="Instagram" class="logo1"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="../Images/twitter 3.jpg" alt="Twitter" class="logo2"></a>   
+                <a href="https://whatsapp.com/" target="_blank"><img src="../Images/WhatsApp_icon.png" alt="Whatsapp" class="logo3"></a>
+            </section>
+        </div>
     </footer>
+
+
+
+
+
+
+
+
+
+
+
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -223,6 +573,9 @@
     <script>
         AOS.init();
     </script>
+
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
 </body>
 </html>
