@@ -7,7 +7,7 @@ html{
 /* INDEX */
 
 #fondoBeige{
-    background-color: #F7ECDE;
+    background-color: #F7ECDE
 }
 
 
@@ -1184,6 +1184,7 @@ footer p{
 
 /* MEDIA QUERIE CELULAR PAGINA GALERIA */
 
+
 @media (max-width: 500px) {
     .flexboxNav{
         flex-direction: column;
@@ -1246,7 +1247,15 @@ footer p{
     .flexboxFooter{
         margin-top: 2rem;
     }
+
+    .gridGaleria img{
+        filter: none
+    }
+        
+    
 }
+
+
 
 
 
@@ -1269,8 +1278,21 @@ footer p{
     
         border-bottom: solid 5px #54BAB9;
     }
+
+    .menuPrincipal ul li{
+        background-color: none;
+        border:0ch;
+        border-radius:0ch;
+    }
+
+    .menuPrincipal ul li:hover{
+        box-shadow: none;
+        transform: none;
+    }
     
 }
+
+
 
 
 
@@ -1289,9 +1311,64 @@ footer p{
     
 }
 
+@media (max-width: 404px){
+    .primerDiv2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+
+    .menuBajo{
+        padding-bottom: 1.5rem;
+    }
+
+    .margenPenultimo{
+        padding-right: 10rem;
+    }
+}
 
 
 
+
+
+
+/* MEDIA QUERIE PARA PAGINA PRODUCTOS */
+@media (max-width: 500px){
+    .productosH3{
+        margin-left: 60px;
+        margin-top: 7rem;
+    }
+
+    .marginTop{
+        margin-left: 112px;
+        margin-top: 13rem;
+    }
+
+    .estiloTabla{
+        display: none;
+    }
+}
+
+@media (max-width:1010px){
+    .productosH3{
+        margin-left: 0rem;
+        width: 100%;
+        border: none;
+    }
+
+    .marginTop{
+        margin-left: 0rem;
+        width: 100%;
+        border: none;
+    }
+
+    .estiloTabla{
+        display: flex;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+}
 
 
 
