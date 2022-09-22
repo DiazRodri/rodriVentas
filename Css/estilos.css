@@ -259,6 +259,7 @@ footer p{
     border-bottom: solid 5px;
 
     margin-bottom: 50px;
+    margin-top: 3rem;
 }
 
 
@@ -1182,6 +1183,7 @@ footer p{
 
 
 
+
 /* MEDIA QUERIE CELULAR PAGINA GALERIA */
 
 
@@ -1251,10 +1253,313 @@ footer p{
     .gridGaleria img{
         filter: none
     }
-        
+
+    .primerDiv{
+        display: flex;
+        flex-direction: column;
+    }      
     
 }
 
+@media (max-width: 496px){
+    .gridGaleria{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-row-gap: 1rem;
+
+        justify-content: center;
+
+        grid-template-areas: 
+        "foto3"
+        "foto1"
+        "foto2"
+        "foto8"
+        "foto4"
+        "foto6"
+        "foto7"
+        "foto5"
+        "foto9";
+    }
+
+    .foto1Galeria{
+        height: 21.6rem;
+        width: 27.5rem;
+    }
+
+    .foto2Galeria{
+        height: 23rem;
+        width: 29rem;
+    }
+
+    .foto8Galeria{
+        height: 21rem;
+        width: 29rem;
+    }
+
+    .foto4Galeria{
+        height: 21rem;
+        width: 29rem;
+    }
+
+    .foto5Galeria{
+        height: 21rem;
+        width: 29rem;
+    }
+
+    .foto9Galeria{
+        height: 21rem;
+        width: 29rem;
+    }
+
+    .margenGaleria{
+        margin-bottom: 3rem;
+        margin-top: 4rem;
+    }
+
+    .flexboxFooter{
+        margin-top: 2rem;
+    }
+
+    .primerDiv{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px){
+    .gridGaleria{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-row-gap: 1rem;
+
+        justify-content: center;
+
+        grid-template-areas: 
+        "foto3"
+        "foto1"
+        "foto2"
+        "foto8"
+        "foto4"
+        "foto6"
+        "foto7"
+        "foto5"
+        "foto9";
+    }
+
+    .foto1Galeria{
+        height: 15.6rem;
+        width: 20.5rem;
+    }
+
+    .foto2Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto8Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto4Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto5Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto9Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto7Galeria{
+        height: 27rem;
+        width: 21rem;
+    }
+
+    .margenGaleria{
+        margin-bottom: 3rem;
+        margin-top: 4rem;
+    }
+
+    .flexboxFooter{
+        margin-top: 2rem;
+    }
+
+    .primerDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuBajo{
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 366px){
+    .gridGaleria{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-row-gap: 1rem;
+
+        justify-content: center;
+
+        grid-template-areas: 
+        "foto3"
+        "foto1"
+        "foto2"
+        "foto8"
+        "foto4"
+        "foto6"
+        "foto7"
+        "foto5"
+        "foto9";
+    }
+
+    .foto1Galeria{
+        height: 15.6rem;
+        width: 20.5rem;
+    }
+
+    .foto2Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto8Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto4Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto5Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto9Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto7Galeria{
+        height: 27rem;
+        width: 21rem;
+    }
+
+    .foto3Galeria{
+        height: 25rem;
+        width: 19rem;
+    }
+
+    .foto6Galeria{
+        height: 25rem;
+        width: 19rem;
+    }
+
+    .margenGaleria{
+        margin-bottom: 3rem;
+        margin-top: 4rem;
+    }
+
+    .flexboxFooter{
+        margin-top: 2rem;
+    }
+
+    .primerDiv{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 352px){
+    .gridGaleria{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-row-gap: 1rem;
+
+        justify-content: center;
+
+        grid-template-areas: 
+        "foto3"
+        "foto1"
+        "foto2"
+        "foto8"
+        "foto4"
+        "foto6"
+        "foto7"
+        "foto5"
+        "foto9";
+    }
+
+    .foto1Galeria{
+        height: 15.6rem;
+        width: 20.5rem;
+    }
+
+    .foto2Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto8Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto4Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto5Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto9Galeria{
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .foto7Galeria{
+        height: 25rem;
+        width: 19rem;
+    }
+
+    .foto3Galeria{
+        height: 25rem;
+        width: 19rem;
+    }
+
+    .foto6Galeria{
+        height: 25rem;
+        width: 19rem;
+    }
+
+    .margenGaleria{
+        margin-bottom: 3rem;
+        margin-top: 4rem;
+    }
+
+    .flexboxFooter{
+        margin-top: 2rem;
+    }
+
+    .primerDiv{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 
@@ -1311,6 +1616,16 @@ footer p{
     
 }
 
+@media (max-width: 469px){
+    form {
+        width:50%;
+    }
+    input[type=text], textarea {
+        width:50%;
+    }
+}
+
+
 @media (max-width: 404px){
     .primerDiv2{
         display: flex;
@@ -1328,6 +1643,12 @@ footer p{
     }
 }
 
+@media (max-width: 300px) {
+    iframe{
+        width:40%;
+        height: 40%;
+    }
+}
 
 
 
@@ -1517,3 +1838,18 @@ footer p{
 }
 
 
+.fondoNav{
+    background-color:#E9DAC1
+}
+
+.primerDiv a:hover{
+    color: #781C68;
+}
+
+.primerDiv2 a:hover{
+    color: #781C68;
+}
+
+.navbar-collapse{
+    margin-left: 2rem;
+}
