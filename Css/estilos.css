@@ -1725,7 +1725,7 @@ footer p{
 }
 
 
-.menuPrincipal ul li{
+/* .menuPrincipal ul li{
     color:#781C68;
     background-color:#54bab8a8;
     border: 1px solid #1D9AF2;
@@ -1740,7 +1740,7 @@ footer p{
 .menuPrincipal ul li:hover{
     box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
     transform: translateX(-3px);
-}
+} */
 
 
 

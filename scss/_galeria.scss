@@ -1,0 +1,115 @@
+.gridGaleria{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+
+    justify-items: center;
+    align-items: center;
+
+    justify-content: stretch;
+    align-content: center;
+
+    grid-template-areas: 
+    "foto3 foto1 foto2"
+    "foto8 foto4 foto6"
+    "foto7 foto5 foto9"
+    ;
+}
+
+.foto3Galeria{
+    grid-area: foto3;
+    height: 450px;
+    width: 350px;
+
+}
+.foto1Galeria{
+    grid-area: foto1;
+    height: 396px;
+    width: 546px;
+
+}
+.foto2Galeria{
+    grid-area: foto2;
+    height: 396px;
+    width: 546px;
+
+}
+.foto8Galeria{
+    grid-area: foto8;
+    height: 400px;
+    width: 580px;
+
+}
+.foto4Galeria{
+    grid-area: foto4;
+    height: 403px;
+    width: 570px;
+
+}
+.foto6Galeria{
+    grid-area: foto6;
+    height: 400px;
+    width: 350px;
+
+}
+.foto7Galeria{
+    grid-area: foto7;
+    height: 380px;
+    width: 400px;
+
+}
+.foto5Galeria{
+    grid-area: foto5;
+    height: 380px;
+    width: 550px;
+}
+.foto9Galeria{
+    grid-area: foto9;
+    height: 380px;
+    width: 550px;
+}
+
+
+.gridGaleria img{
+    filter: grayscale(100%);
+    transition: filter 1.5s;
+    &:hover{
+        filter: none;
+    }
+}
+
+.fondoNav{
+    background-color: #E9DAC1;
+}
+
+
+
+.subtituloGaleria{
+    margin: 50px;
+    text-align: center;
+    border-bottom: solid 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #54BAB9
+}
+
+.margenGaleria{
+    margin-bottom: 10rem;
+}
+
+.nav-link{
+    color: #781C68;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #781C68;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
