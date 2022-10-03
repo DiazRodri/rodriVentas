@@ -1,6 +1,11 @@
 @import "nosotros";
 @import "galeria";
+@import "index";
 
-$colorEncabezado: #E9DAC1;
-$colorFondo: #F7ECDE;
-$colorTitulo: #54BAB9;
+
+$titulosPrincipales:(
+    tono: #54BAB9,
+    letra: sans-serif,
+    alineacion: center,
+    negrita: bold
+);

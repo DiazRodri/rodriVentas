@@ -1,0 +1,9 @@
+.tituloMap{
+    background-color: map-get($titulosPrincipales, tono);
+    font-family: map-get($titulosPrincipales, letra);
+    font-weight: map-get($titulosPrincipales, negrita);
+    text-align: map-get($titulosPrincipales, alineacion);
+}
+
+
+
