@@ -29,6 +29,22 @@
 }
 
 
+
+.titularNosotros{
+    color:#54BAB9;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.subtituloNosotros{
+    @extend .titularNosotros;
+    margin-top: 9rem;
+}
+
 .textosGeneral{
     font-family: sans-serif;
     font-size: medium;
