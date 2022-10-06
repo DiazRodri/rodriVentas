@@ -42,6 +42,8 @@ $titulosPrincipales:(
     text-align: center;
 }
 
+
+
 .footerIndex{
     margin-top: 10rem;
     p{
@@ -75,3 +77,61 @@ $titulosPrincipales:(
 }
 
 
+/* CAMBIOS BOOTSTRAP */
+
+.bg-light {
+    --bs-bg-opacity: 0;
+    background-color: #E9DAC1;
+}
+
+.width{
+    width: 800px;
+}
+
+.width2{
+    width: 500px;
+}
+
+.card{
+    --bs-card-bg: #F7ECDE;
+    --bs-card-border-color: #781C68;
+    --bs-card-title-spacer-y: 1.5rem;
+}
+
+.btn-primary {
+    --bs-btn-color: #781c68;
+    --bs-btn-bg: #54BAB9;
+    --bs-btn-border-color: #54BAB9;
+    --bs-btn-hover-color: #54BAB9;
+    --bs-btn-hover-bg: #781C68;
+    --bs-btn-hover-border-color: #781C68;
+    --bs-btn-active-color: #54BAB9;
+    --bs-btn-active-bg: #781C68;
+    --bs-btn-active-border-color: #54BAB9;
+
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.nav-link{
+    color: #781C68;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #781C68;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+@media (min-width: 1200px){
+    .h3, h3{
+    font-size: 1.7rem;
+    }
+}
+
+
+.footerIndex{
+    margin-top: 10rem;
+}

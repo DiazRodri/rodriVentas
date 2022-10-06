@@ -1,0 +1,84 @@
+.gridContacto{
+    display: grid;
+
+    grid-template-columns: 5fr;
+    grid-template-rows: 0fr 1fr 1fr;
+
+    grid-row-gap: 1fr;
+
+    align-items: center;
+
+    grid-template-areas: 
+    "tituloProductos"
+    "form"
+    "mapa";
+}
+
+.tituloProductos{
+    grid-area: tituloProductos;
+}
+
+.form{
+    grid-area: form;
+}
+
+.mapa{
+    grid-area: mapa;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: end;
+} 
+
+.estilosTexto3{
+    font-family: sans-serif;
+}
+
+.nombreBloque{
+    display: block;
+
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.correoBloque{
+    display: block;
+
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.CelularBloque{
+    display: block;
+
+    margin-bottom: 80px;
+    margin-left: 30px;
+}
+
+.margenMensaje{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.subtituloContacto{
+    color: #54BAB9;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.margenPenultimo{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.margenUltimo{
+    margin-left: 30px;
+}
+
+.mapa{
+    grid-area: mapa;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: end;
+} 

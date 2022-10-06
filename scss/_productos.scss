@@ -1,0 +1,82 @@
+.titularProductos{
+    color: map-get($titulosPrincipales , tono );
+    font-family: map-get($titulosPrincipales , letra );
+    font-weight: map-get($titulosPrincipales , negrita );
+    text-align: map-get($titulosPrincipales , alineacion );
+    margin-top: 2rem;
+}
+
+.subtituloProductos{
+    color: #54BAB9;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.productosH3{
+    color: #781C68;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.marginTop{
+    color: #781C68;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+/* .estiloTabla{
+    color: #54BAB9;
+    font-family: sans-serif;
+    margin-left: 765px;
+    margin-top: 150px;
+
+    border: #781C68 solid 3px;
+    border-collapse: collapse;
+    border-color: #781C68;
+} */
+
+.estiloTabla{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14rem;
+    color: #54BAB9;
+    font-family: sans-serif;
+    border: #781C68 solid 3px;
+    border-collapse: collapse;
+    border-color: #781C68;
+    text-align: center;
+}
+
+
+
+.menuBajo{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    color: #54BAB9;
+}
+
+.primerDiv2{
+    margin-top: 3rem;
+    
+    text-align: center;
+
+    font-family: sans-serif;
+    color: #54BAB9;
+}
+
+
+
+
+
+.footerProductos{
+    margin-top: 8rem;
+}
