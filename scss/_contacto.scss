@@ -28,6 +28,7 @@
     flex-direction: row;
     justify-content: flex-end;
     justify-items: end;
+    margin-right: 5px;
 } 
 
 .estilosTexto3{
@@ -82,3 +83,15 @@
     justify-content: flex-end;
     justify-items: end;
 } 
+
+.form-control{
+    width: 35%
+}
+
+.formContacto{
+    margin-left: 3rem;
+}
+
+.btn-primary{
+    margin-top: 1.5rem;
+}
