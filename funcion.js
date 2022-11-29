@@ -1,3 +1,8 @@
+//La idea es calcular el promedio de edad de una clase pero solo de los hombres
+
+
+
+
 const alumno1 = {
     edad: 20,
     sexo: `M`
