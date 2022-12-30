@@ -45,9 +45,12 @@ const promedioHombres = (listaDeAlumnos) => {
 
 
 
+
+
+
 //Segunda pre-entrega
 
-const productos = [
+/* const productos = [
     {
         "producto": "Assassins Creed: Odyssey",
         "precio" : "$60",
@@ -120,7 +123,7 @@ const productos = [
         "stock" : "No disponible"
     },
 
-];
+]; */
 
 
 //supongamos que quiero encontrar un juego en específico, por ejemplo del Days Gone:
@@ -138,7 +141,7 @@ const juego = productos.find(juego => juego.producto === "Days Gone") ;
 
 //Ahora quiero ordenar de forma alfabetica el nuevo array:
 
-const videoJuegos = ["F1" , "MultiVersus" , "Uncharted" , "Infamous" , "GTA" , "Fifa 23" , "God Of War"]
+/* const videoJuegos = ["F1" , "MultiVersus" , "Uncharted" , "Infamous" , "GTA" , "Fifa 23" , "God Of War"]
 
 const juegosOrdenAlfabetico = [...videoJuegos].sort((a , b) => {
     if ( a < b ){
@@ -149,4 +152,25 @@ const juegosOrdenAlfabetico = [...videoJuegos].sort((a , b) => {
         return 0
     }
 
-})
+}) */
+
+
+
+
+
+
+
+
+//Tercera pre-entrega
+
+//Agregandole el dark mode a la página web
+
+
+const darkmode = document.getElementById( "darkmode" );
+darkmode.addEventListener("click", function(){
+    if( document.body.classList.contains("dark") ){
+        document.body.classList.remove("dark");
+    }else{
+        document.body.classList.add("dark");
+    }
+});

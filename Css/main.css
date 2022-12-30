@@ -123,7 +123,9 @@
   justify-content: stretch;
   align-content: center;
   margin-right: 2rem;
-  grid-template-areas: "foto3 foto1 foto2" "foto8 foto4 foto6" "foto7 foto5 foto9"; }
+  grid-template-areas: "foto3 foto1 foto2"
+ "foto8 foto4 foto6"
+ "foto7 foto5 foto9"; }
 
 .foto3Galeria {
   grid-area: foto3;
@@ -211,7 +213,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "foto1 foto2 foto3" "foto4 foto5 foto6" "foto7 foto8 foto9" "foto10 foto11 foto12";
+  grid-template-areas: "foto1 foto2 foto3"
+ "foto4 foto5 foto6"
+ "foto7 foto8 foto9"
+ "foto10 foto11 foto12";
   grid-gap: 20px; }
 
 .gallery1 {
@@ -434,7 +439,9 @@
   grid-template-rows: 0fr 1fr 1fr;
   grid-row-gap: 1fr;
   align-items: center;
-  grid-template-areas: "tituloProductos" "form" "mapa"; }
+  grid-template-areas: "tituloProductos"
+ "form"
+ "mapa"; }
 
 .tituloProductos {
   grid-area: tituloProductos; }
@@ -514,7 +521,16 @@ html {
     align-items: center;
     justify-content: center;
     align-content: center;
-    grid-template-areas: "titulo titulo" "subtitulo subtitulo" "subtitulo1 subtitulo1" "img1 ." "img2 ." "img3 ." "subtitulo2 subtitulo2" "img4 ." "img5 ." "img6 ."; }
+    grid-template-areas: "titulo titulo"
+ "subtitulo subtitulo"
+ "subtitulo1 subtitulo1"
+ "img1 ."
+ "img2 ."
+ "img3 ."
+ "subtitulo2 subtitulo2"
+ "img4 ."
+ "img5 ."
+ "img6 ."; }
   .titulo {
     font-size: larger;
     margin-top: 3rem; }
@@ -540,7 +556,16 @@ html {
     align-items: center;
     justify-content: center;
     align-content: center;
-    grid-template-areas: "titulo" "subtitulo" "subtitulo1" "img1" "img2" "img3" "subtitulo2" "img4" "img5" "img6"; }
+    grid-template-areas: "titulo"
+ "subtitulo"
+ "subtitulo1"
+ "img1"
+ "img2"
+ "img3"
+ "subtitulo2"
+ "img4"
+ "img5"
+ "img6"; }
   .titulo {
     font-size: medium;
     margin-top: 2rem; }
@@ -591,13 +616,29 @@ html {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 1rem;
     justify-content: center;
-    grid-template-areas: "foto1 foto2" "foto3 foto4" "foto5 foto6" "foto7 foto8" "foto9 foto10" "foto11 foto12"; } }
+    grid-template-areas: "foto1 foto2"
+ "foto3 foto4"
+ "foto5 foto6"
+ "foto7 foto8"
+ "foto9 foto10"
+ "foto11 foto12"; } }
 
 @media (max-width: 540px) {
   .gallery {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
-    grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" "foto7" "foto8" "foto9" "foto10" "foto11" "foto12"; }
+    grid-template-areas: "foto1"
+ "foto2"
+ "foto3"
+ "foto4"
+ "foto5"
+ "foto6"
+ "foto7"
+ "foto8"
+ "foto9"
+ "foto10"
+ "foto11"
+ "foto12"; }
   .gallery img {
     filter: grayscale(0%); } }
 
@@ -695,3 +736,33 @@ html {
 
 .navbar-collapse {
   margin-left: 2rem; }
+
+
+
+#darkMode{
+  display: inline-block;
+  background: url(../Images/darkmode.jpg) left center;
+  width: 99px;
+  height: 40px;
+  font-size: 0;
+  text-decoration: none;
+}
+
+
+.dark{
+  background-color: #1E1E1E;  
+}
+
+body{
+  transition: background-color .3s;
+}
+
+body.dark #darkMode{
+  background-position: right center;
+
+}
+
+.modoOscuro{
+  width: 8rem;
+  height: 5rem;
+}
